@@ -54,10 +54,37 @@
 .about-image{
   width: 15vw;
   height: 15vw;
+  margin-top: 18vh;
+  
 }
 .about-image1{
   width: 15vw;
   height: 15vw;
+  margin-top: -13vh;
+  margin-left: -5vw;
+}
+.about-image-home{
+  width: 15vw;
+  height: 15vw;
+  margin: 1vw;
+}
+.content-bio{
+  text-align: left;
+  margin-top: 5vh;
+  margin-left: 6vw;
+}
+.number{
+  color: #61dafb;
+  font-size: 2vw;
+}
+.person-info{
+  font-size: 2vw;
+}
+.name-cap{
+  font-size: 4vw;
+}
+.name-sm{
+  font-size: 2.5vw;
 }
 
 .App-link {
