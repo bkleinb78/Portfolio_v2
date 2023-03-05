@@ -31,7 +31,7 @@
   background-color: #282c34;
 }
 .navbar-top{
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 40px;
 }
 .nav-item{
@@ -48,20 +48,99 @@
   text-align: left;
 }
 .content-aboutme{
-  font-size: 2vw;
+  font-size: 1.8vw;
   text-align: left;
+  font-family: Kodchasan-Bold;
 }
 .about-image{
   width: 15vw;
   height: 15vw;
+  margin-top: 18vh;
+  
 }
 .about-image1{
   width: 15vw;
   height: 15vw;
+  margin-top: -13vh;
+  margin-left: -5vw;
+}
+.about-image-home{
+  width: 15vw;
+  height: 15vw;
+  margin: 1vw;
+}
+.content-bio{
+  text-align: left;
+  margin-top: 5vh;
+  margin-left: 6vw;
+  font-family: Kodchasan-Bold;
+}
+.number{
+  color: #61dafb;
+  font-size: 2vw;
+  font-family: Kodchasan-Bold;
+}
+.person-info{
+  font-size: 2vw;
+  font-family: Kodchasan-Bold;
+}
+.name-cap{
+  font-size: 7vw;
+  font-family: Arizona-Regular;
+  font-weight: bold;
+}
+.name-sm{
+  font-size: 2.5vw;
+  font-family: Kodchasan-Bold;
+}
+.name-sm-contact{
+  font-size: 2.5vw;
+  font-family: Kodchasan-Bold;
+}
+.image-icon{
+  width: 3vw;
+  height: 3vw;
+  margin: 1.5vw;
+}
+.project-icon{
+  width: 2vw;
+  height: 2vw;
+  margin: 1vw;
+}
+.project-layout{
+  border:solid;
+  border-color: white;
+  height: 25vh;
+  margin: 3.2vw;
+}
+.project-title{
+  text-align: left;
+  font-family: Kodchasan-Bold;
+  font-size: 1.7vw;
+}
+.icon-layout-project{
+  text-align: right;
+  margin-top: 13vh;
+}
+.margintop-std{
+  margin-top: 100px;
 }
 
 .App-link {
   color: #61dafb;
+}
+@font-face {
+  font-family: 'Arizona-Regular';
+  font-weight: 800;
+  src: local('Arizona-Regular'), url(./assets/Arizonia-Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Kodchasan-Bold';
+  src: local('Kodchasan-Bold'), url(./assets/Kodchasan-Bold.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
 }
 
 @keyframes App-logo-spin {
