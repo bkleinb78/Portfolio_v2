@@ -93,10 +93,37 @@
   font-size: 2.5vw;
   font-family: Kodchasan-Bold;
 }
+.name-sm-contact{
+  font-size: 2.5vw;
+  font-family: Kodchasan-Bold;
+}
 .image-icon{
   width: 3vw;
   height: 3vw;
   margin: 1.5vw;
+}
+.project-icon{
+  width: 2vw;
+  height: 2vw;
+  margin: 1vw;
+}
+.project-layout{
+  border:solid;
+  border-color: white;
+  height: 25vh;
+  margin: 3.2vw;
+}
+.project-title{
+  text-align: left;
+  font-family: Kodchasan-Bold;
+  font-size: 1.7vw;
+}
+.icon-layout-project{
+  text-align: right;
+  margin-top: 13vh;
+}
+.margintop-std{
+  margin-top: 100px;
 }
 
 .App-link {
