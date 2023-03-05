@@ -31,7 +31,7 @@
   background-color: #282c34;
 }
 .navbar-top{
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 40px;
 }
 .nav-item{
@@ -48,8 +48,9 @@
   text-align: left;
 }
 .content-aboutme{
-  font-size: 2vw;
+  font-size: 1.8vw;
   text-align: left;
+  font-family: Kodchasan-Bold;
 }
 .about-image{
   width: 15vw;
@@ -72,23 +73,47 @@
   text-align: left;
   margin-top: 5vh;
   margin-left: 6vw;
+  font-family: Kodchasan-Bold;
 }
 .number{
   color: #61dafb;
   font-size: 2vw;
+  font-family: Kodchasan-Bold;
 }
 .person-info{
   font-size: 2vw;
+  font-family: Kodchasan-Bold;
 }
 .name-cap{
-  font-size: 4vw;
+  font-size: 7vw;
+  font-family: Arizona-Regular;
+  font-weight: bold;
 }
 .name-sm{
   font-size: 2.5vw;
+  font-family: Kodchasan-Bold;
+}
+.image-icon{
+  width: 3vw;
+  height: 3vw;
+  margin: 1.5vw;
 }
 
 .App-link {
   color: #61dafb;
+}
+@font-face {
+  font-family: 'Arizona-Regular';
+  font-weight: 800;
+  src: local('Arizona-Regular'), url(./assets/Arizonia-Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Kodchasan-Bold';
+  src: local('Kodchasan-Bold'), url(./assets/Kodchasan-Bold.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
 }
 
 @keyframes App-logo-spin {
