@@ -33,7 +33,7 @@ export default function about() {
             <div className="content-bio">
               <div className="row">
                 <div className="col-md-3">
-                  <p className="number">30</p>
+                  <p className="number">44</p>
                   <p className="number">31</p>
                   <p className="number">175</p>
                   <p className="number">1</p>
@@ -43,7 +43,7 @@ export default function about() {
                   <p className="person-info">Years Old</p>
                   <p className="person-info">Repositories</p>
                   <p className="person-info">Contributions</p>
-                  <p className="person-info">Amazing Finance</p>
+                  <p className="person-info">Amazing Fiance</p>
                   <p className="person-info">Year Developing</p>
                 </div>
               </div>
