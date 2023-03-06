@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
+import Button from "react-bootstrap/Button";
+
 
 import "../App.css";
 
@@ -33,11 +35,13 @@ export default function contact() {
             <p className="name-sm-contact">Phone</p>
             <p className="name-sm-contact">Linkedin</p>
             <p className="name-sm-contact">Github</p>
+            <p className="name-sm-contact">Resume</p>
           </div>
           <div className="col-md-6 name-sm-contact">
             <p className="name-sm-contact">+18474566702</p>
             <p className="name-sm-contact">https://linkedin.com/xxx</p>
             <p className="name-sm-contact">https://github.com/bkleinb78</p>
+            <p className="name-sm-contact"><Button variant="primary">Browse Resume</Button></p>
           </div>
         </div>
       </div>
