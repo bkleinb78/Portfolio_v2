@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Button from "react-bootstrap/Button";
 
-
 import "../App.css";
+import Resume from "../assets/1.pdf";
 
 function Mailto({ email, subject, body, ...props }) {
   return (
@@ -41,7 +41,7 @@ export default function contact() {
             <p className="name-sm-contact">+18474566702</p>
             <p className="name-sm-contact">https://linkedin.com/xxx</p>
             <p className="name-sm-contact">https://github.com/bkleinb78</p>
-            <p className="name-sm-contact"><Button variant="primary"><a href="https://google.com" style={{fontSize:"2.5vw"}}>Browse Resume</a></Button></p>
+            <p className="name-sm-contact"><Button variant="primary"><a href={Resume} target="_blank" style={{fontSize:"2.5vw", color:"white"}}>Browse Resume</a></Button></p>
           </div>
         </div>
       </div>
