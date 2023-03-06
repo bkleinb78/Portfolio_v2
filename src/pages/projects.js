@@ -2,6 +2,8 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Navbar from "../components/navbar";
 
+import Image1 from "../assets/image1.jpg";
+
 import "../App.css";
 
 export default function projects() {
@@ -13,10 +15,14 @@ export default function projects() {
         </div>
         <div className="row inline-project">
           <div className="col-md-3 project-layout">
-            <p className="project-title">Capstone</p>
-            <a href="https://google.com">
-              <Button variant="secondary">Live Demo</Button>
-            </a>
+            <p className="project-title">
+              Capstone
+              <a href="https://google.com" style={{ marginLeft: "4.9vw" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+            </p>
+            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
+
             <div className="icon-layout-project">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFfuWnYhXb8yRH_vqFAcZ379xGKZtdiAZxA&usqp=CAU"
@@ -32,13 +38,20 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <a href="https://google.com">
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
+              </a>
             </div>
           </div>
           <div className="col-md-3 project-layout">
-            <p className="project-title">Shopify</p>
-            <a href="https://google.com">
-              <Button variant="secondary">Live Demo</Button>
-            </a>
+            <p className="project-title">
+              Shopify
+              <a href="https://google.com" style={{ marginLeft: "7vw" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+            </p>
+            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
+
             <div className="icon-layout-project">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRydIjxrWKyjuXD8bKC4CUEH4SqU0wg98qPIQ&usqp=CAU"
@@ -54,13 +67,20 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <a href="https://google.com">
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
+              </a>
             </div>
           </div>
           <div className="col-md-3 project-layout">
-            <p className="project-title">Ecommerce</p>
-            <a href="https://google.com">
-              <Button variant="secondary">Live Demo</Button>
-            </a>
+            <p className="project-title">
+              Ecommerce
+              <a href="https://google.com" style={{ marginLeft: "3.9vw" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+            </p>
+            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
+
             <div className="icon-layout-project">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFfuWnYhXb8yRH_vqFAcZ379xGKZtdiAZxA&usqp=CAU"
@@ -76,15 +96,22 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <a href="https://google.com">
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
+              </a>
             </div>
           </div>
         </div>
         <div className="row inline-project">
           <div className="col-md-3 project-layout">
-            <p className="project-title">React</p>
-            <a href="https://google.com">
-              <Button variant="secondary">Live Demo</Button>
-            </a>
+            <p className="project-title">
+              React
+              <a href="https://google.com" style={{ marginLeft: "8.6vw" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+            </p>
+            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
+
             <div className="icon-layout-project">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFfuWnYhXb8yRH_vqFAcZ379xGKZtdiAZxA&usqp=CAU"
@@ -100,13 +127,20 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <a href="https://google.com">
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
+              </a>
             </div>
           </div>
           <div className="col-md-3 project-layout">
-            <p className="project-title">Mobile</p>
-            <a href="https://google.com">
-              <Button variant="secondary">Live Demo</Button>
-            </a>
+            <p className="project-title">
+              Mobile
+              <a href="https://google.com" style={{ marginLeft: "7.8vw" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+            </p>
+            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
+
             <div className="icon-layout-project">
               <img
                 src="data:image/png;base64,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"
@@ -122,13 +156,20 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <a href="https://google.com">
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
+              </a>
             </div>
           </div>
           <div className="col-md-3 project-layout">
-            <p className="project-title">Django</p>
-            <a href="https://google.com">
-              <Button variant="secondary">Live Demo</Button>
-            </a>
+            <p className="project-title">
+              Django
+              <a href="https://google.com" style={{ marginLeft: "7.5vw" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+            </p>
+            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
+
             <div className="icon-layout-project">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA6oaetahMwwJUin2nl4wDVElSs38IHNqAjg&usqp=CAU"
@@ -148,6 +189,9 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <a href="https://google.com">
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
+              </a>
             </div>
           </div>
         </div>
