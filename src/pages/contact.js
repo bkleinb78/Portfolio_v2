@@ -37,7 +37,7 @@ export default function contact() {
           <div className="col-md-6 name-sm-contact">
             <p className="name-sm-contact">+18474566702</p>
             <p className="name-sm-contact">https://linkedin.com/xxx</p>
-            <p className="name-sm-contact">https://github.com/xxx</p>
+            <p className="name-sm-contact">https://github.com/bkleinb78</p>
           </div>
         </div>
       </div>
