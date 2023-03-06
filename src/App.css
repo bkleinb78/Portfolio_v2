@@ -117,10 +117,11 @@
   text-align: left;
   font-family: Kodchasan-Bold;
   font-size: 1.7vw;
+  margin-bottom: 5vh;
 }
 .icon-layout-project{
   text-align: right;
-  margin-top: 13vh;
+  margin-top: 4vh;
 }
 .margintop-std{
   margin-top: 100px;
