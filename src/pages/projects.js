@@ -15,13 +15,11 @@ export default function projects() {
         </div>
         <div className="row inline-project">
           <div className="col-md-3 project-layout">
+            <img src={Image1} style={{ width: "100%", height: "36vh", borderRadius: "15px" }} />
+
             <p className="project-title">
               Capstone
-              <a href="https://google.com" style={{ marginLeft: "4.9vw" }}>
-                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
-              </a>
             </p>
-            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
 
             <div className="icon-layout-project">
               <img
@@ -38,19 +36,23 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <div className="btn-container">
               <a href="https://google.com">
                 <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
               </a>
+              <a href="https://google.com" style={{ marginLeft: "20px" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+              </div>
             </div>
           </div>
           <div className="col-md-3 project-layout">
+          
+            <img src={Image1} style={{ width: "100%", height: "36vh", borderRadius: "15px" }} />
+
             <p className="project-title">
               Shopify
-              <a href="https://google.com" style={{ marginLeft: "7vw" }}>
-                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
-              </a>
             </p>
-            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
 
             <div className="icon-layout-project">
               <img
@@ -67,20 +69,21 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+               <div className="btn-container">
               <a href="https://google.com">
                 <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
               </a>
+              <a href="https://google.com" style={{ marginLeft: "20px" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+              </div>
             </div>
           </div>
           <div className="col-md-3 project-layout">
+            <img src={Image1} style={{ width: "100%", height: "36vh", borderRadius: "15px" }} />
             <p className="project-title">
               Ecommerce
-              <a href="https://google.com" style={{ marginLeft: "3.9vw" }}>
-                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
-              </a>
             </p>
-            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
-
             <div className="icon-layout-project">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFfuWnYhXb8yRH_vqFAcZ379xGKZtdiAZxA&usqp=CAU"
@@ -96,21 +99,25 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+                        <div className="btn-container">
               <a href="https://google.com">
                 <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
               </a>
+              <a href="https://google.com" style={{ marginLeft: "20px" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+              </div>
             </div>
           </div>
         </div>
         <div className="row inline-project">
           <div className="col-md-3 project-layout">
+           
+            <img src={Image1} style={{ width: "100%", height: "36vh", borderRadius: "15px" }} />
+
             <p className="project-title">
               React
-              <a href="https://google.com" style={{ marginLeft: "8.6vw" }}>
-                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
-              </a>
             </p>
-            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
 
             <div className="icon-layout-project">
               <img
@@ -127,19 +134,22 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <div className="btn-container">
               <a href="https://google.com">
                 <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
               </a>
+              <a href="https://google.com" style={{ marginLeft: "20px" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+              </div>
             </div>
           </div>
           <div className="col-md-3 project-layout">
+            <img src={Image1} style={{ width: "100%", height: "36vh", borderRadius: "15px" }} />
+
             <p className="project-title">
               Mobile
-              <a href="https://google.com" style={{ marginLeft: "7.8vw" }}>
-                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
-              </a>
             </p>
-            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
 
             <div className="icon-layout-project">
               <img
@@ -156,19 +166,22 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <div className="btn-container">
               <a href="https://google.com">
                 <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
               </a>
+              <a href="https://google.com" style={{ marginLeft: "20px" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+              </div>
             </div>
           </div>
           <div className="col-md-3 project-layout">
+            <img src={Image1} style={{ width: "100%", height: "36vh", borderRadius: "15px" }} />
+
             <p className="project-title">
               Django
-              <a href="https://google.com" style={{ marginLeft: "7.5vw" }}>
-                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
-              </a>
             </p>
-            <img src={Image1} style={{ width: "100%", height: "20vh" }} />
 
             <div className="icon-layout-project">
               <img
@@ -189,9 +202,14 @@ export default function projects() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyigBlTjgTyWv5CGArRMfbBTGpmn-DMh6Rg&usqp=CAU"
                 className="project-icon"
               />
+              <div className="btn-container">
               <a href="https://google.com">
                 <Button variant="secondary"><a style={{fontSize:"1vw"}}>Source Code</a></Button>
               </a>
+              <a href="https://google.com" style={{ marginLeft: "20px" }}>
+                <Button variant="secondary"><a style={{fontSize:"1vw"}}>View</a></Button>
+              </a>
+              </div>
             </div>
           </div>
         </div>
