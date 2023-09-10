@@ -1,6 +1,4 @@
 import React from "react";
-
-import Navbar from "../components/navbar";
 import Image1 from "../assets/image1.jpg";
 import Image2 from "../assets/image2.jpg";
 import "../App.css";
@@ -9,9 +7,7 @@ export default function about() {
   return (
     <div className="App">
       <div className="main-div">
-        <div className="navbar-top">
-          <Navbar />
-        </div>
+        <div className="navbar-top"></div>
         <div className="row">
           <div className="col-md-6">
             <p className="header-title">ABOUT ME</p>

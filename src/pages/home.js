@@ -13,7 +13,7 @@ export default function home() {
           <Navbar />
         </div>
         <div>
-          <p className="name-sm">Hey There, My name is</p>
+          <p className="name-sm">Hello I'm</p>
           <p className="name-cap">Brian Kleinberg</p>
           <p className="name-sm">I'm a Full Stack Developer</p>
           <div>

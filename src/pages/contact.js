@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
 import Button from "react-bootstrap/Button";
-
 import "../App.css";
 import Resume from "../assets/1.pdf";
 
@@ -17,15 +15,18 @@ export default function contact() {
   return (
     <div className="App">
       <div className="main-div">
-        <div className="navbar-top">
-          <Navbar />
-        </div>
+        <div className="navbar-top"></div>
         <div className="row margintop-std">
           <div className="col-md-6">
             <p className="name-sm-contact">Email</p>
           </div>
           <div className="col-md-6 name-sm-contact">
-            <Mailto email="kleinbergbrian.dev@gmail.com" subject="Hello" body="Hello Brian!" obfuscate={true}>
+            <Mailto
+              email="kleinbergbrian.dev@gmail.com"
+              subject="Hello"
+              body="Hello Brian!"
+              obfuscate={true}
+            >
               kleinbergbrian.dev@gmail.com
             </Mailto>
           </div>
@@ -41,7 +42,17 @@ export default function contact() {
             <p className="name-sm-contact">+18474566702</p>
             <p className="name-sm-contact">https://linkedin.com/xxx</p>
             <p className="name-sm-contact">https://github.com/bkleinb78</p>
-            <p className="name-sm-contact"><Button variant="primary"><a href={Resume} target="_blank" style={{fontSize:"2.5vw", color:"white"}}>Browse Resume</a></Button></p>
+            <p className="name-sm-contact">
+              <Button variant="primary">
+                <a
+                  href={Resume}
+                  target="_blank"
+                  style={{ fontSize: "2.5vw", color: "white" }}
+                >
+                  Browse Resume
+                </a>
+              </Button>
+            </p>
           </div>
         </div>
       </div>

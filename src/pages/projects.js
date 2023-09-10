@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Navbar from "../components/navbar";
 
 import Image1 from "../assets/image1.jpg";
-
+import Image2 from "../assets/image2.jpg";
 import "../App.css";
 
 export default function projects() {
@@ -80,7 +80,7 @@ export default function projects() {
             </div>
           </div>
           <div className="col-md-3 project-layout">
-            <img src={Image1} style={{ width: "100%", height: "36vh", borderRadius: "15px" }} />
+            <img src={Image2} style={{ width: "100%", height: "36vh", borderRadius: "15px" }} />
             <p className="project-title">
               Ecommerce
             </p>
