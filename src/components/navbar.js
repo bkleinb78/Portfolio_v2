@@ -7,40 +7,40 @@ import "../App.css";
 function topNavbar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar className="fixed-top" bg="dark" variant="dark">
         <Container>
           <Nav className="me-auto" style={{ display: "contents" }}>
             <Nav.Link
-              href="/"
+              href="#home"
               onclick="toggleMenu()"
               className="nav-item"
               style={{ textAlign: "left" }}
             >
-              <a style={{ color: "white" }}>HOME</a>
+              <p style={{ color: "white" }}>HOME</p>
             </Nav.Link>
             <Nav.Link
-              href="/about"
+              href="#about"
               onclick="toggleMenu()"
               className="nav-item"
               style={{ textAlign: "left" }}
             >
-              <a style={{ color: "white" }}>ABOUT</a>
+              <p style={{ color: "white" }}>ABOUT</p>
             </Nav.Link>
             <Nav.Link
-              href="/projects"
+              href="#projects"
               onclick="toggleMenu()"
               className="nav-item"
               style={{ textAlign: "left" }}
             >
-              <a style={{ color: "white" }}>PROJECTS</a>
+              <p style={{ color: "white" }}>PROJECTS</p>
             </Nav.Link>
             <Nav.Link
-              href="/contact"
+              href="#contact"
               onclick="toggleMenu()"
               className="nav-item"
               style={{ textAlign: "right" }}
             >
-              <a style={{ color: "white" }}>CONTACT</a>
+              <p style={{ color: "white" }}>CONTACT</p>
             </Nav.Link>
           </Nav>
         </Container>
