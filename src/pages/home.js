@@ -16,6 +16,17 @@ export default function home() {
           <p className="name-sm">Hello I'm</p>
           <p className="name-cap">Brian Kleinberg</p>
           <p className="name-sm">I'm a Full Stack Developer</p>
+          <div className="Btn container">
+            <button className="btn btn-color-2" onClick="window.open()">
+              Download CV
+            </button>
+            <button
+              className="btn btn-color-1"
+              onClick="location.href'./contact'"
+            >
+              Contact Info
+            </button>
+          </div>
           <div>
             <img src={Image} className="about-image-home" />
           </div>
