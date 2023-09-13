@@ -21,7 +21,7 @@
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .btn {
@@ -71,106 +71,103 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.main-div{
+.main-div {
   width: 80%;
   min-height: 100vh;
   display: block;
   color: white;
   background-color: #282c34;
 }
-.navbar-top{
+.navbar-top {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.nav-item{
+.nav-item {
   width: 17vw;
 }
-.navbar{
+.navbar {
   border-radius: 40px;
   font-size: 3vw;
   color: white;
 }
-.header-title{
+.header-title {
   font-size: 6vw;
   text-decoration: underline;
   text-align: left;
 }
-.content-aboutme{
+.content-aboutme {
   font-size: 1.8vw;
   text-align: left;
   font-family: Kodchasan-Bold;
 }
-.about-image{
+.about-image {
   width: 15vw;
   height: 15vw;
   margin-top: 18vh;
-  
 }
-.about-image1{
+.about-image1 {
   width: 15vw;
   height: 15vw;
   margin-top: -13vh;
   margin-left: -5vw;
 }
-.about-image-home{
+.about-image-home {
   width: 15vw;
   height: 15vw;
   margin: 1vw;
 }
-.content-bio{
+.content-bio {
   text-align: left;
   margin-top: 5vh;
   margin-left: 6vw;
   font-family: Kodchasan-Bold;
 }
-.number{
+.number {
   color: #61dafb;
   font-size: 2vw;
   font-family: Kodchasan-Bold;
 }
-.person-info{
+.person-info {
   font-size: 2vw;
   font-family: Kodchasan-Bold;
 }
-.name-cap{
+.name-cap {
   font-size: 7vw;
   font-family: Arizona-Regular;
   font-weight: bold;
 }
-.name-sm{
+.name-sm {
   font-size: 2.5vw;
   font-family: Kodchasan-Bold;
 }
-.name-sm-contact{
+.name-sm-contact {
   font-size: 2.5vw;
   font-family: Kodchasan-Bold;
 }
-.image-icon{
+.image-icon {
   width: 3vw;
   height: 3vw;
   margin: 1.5vw;
 }
-.project-icon{
+.project-icon {
   width: 2vw;
   height: 2vw;
   margin: 0.2vw;
 }
 
-.project-layout:hover{
-  border:solid;
+.project-layout:hover {
+  border: solid;
   border-color: #2e87cc;
   box-shadow: 0px 0px 10px 10px #2e87cc;
-
 }
 
 .project-layout img:hover {
   transform: scale(1.1);
   cursor: pointer;
-
 }
 
-.project-layout{
-  border:solid;
+.project-layout {
+  border: solid;
   border-color: #657d8f;
   height: 58vh;
   border-radius: 28px;
@@ -187,21 +184,21 @@
   margin: 0 15px;
 }
 
-.project-title{
+.project-title {
   text-align: left;
   font-family: Kodchasan-Bold;
   font-size: 1.7vw;
   text-align: center;
   margin-top: 10px;
 }
-.icon-layout-project{
+.icon-layout-project {
   /* text-align: right; */
   /* margin-top: 5px; */
 }
-.margintop-std{
+.margintop-std {
   margin-top: 100px;
 }
-.secondary{
+.secondary {
   font-size: 5vw;
 }
 
@@ -209,15 +206,17 @@
   color: #61dafb;
 }
 @font-face {
-  font-family: 'Arizona-Regular';
+  font-family: "Arizona-Regular";
   font-weight: 800;
-  src: local('Arizona-Regular'), url(./assets/Arizonia-Regular.ttf) format('truetype');
+  src: local("Arizona-Regular"),
+    url(./assets/Arizonia-Regular.ttf) format("truetype");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
 @font-face {
-  font-family: 'Kodchasan-Bold';
-  src: local('Kodchasan-Bold'), url(./assets/Kodchasan-Bold.ttf) format('truetype');
+  font-family: "Kodchasan-Bold";
+  src: local("Kodchasan-Bold"),
+    url(./assets/Kodchasan-Bold.ttf) format("truetype");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
