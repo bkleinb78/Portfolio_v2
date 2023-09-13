@@ -5,7 +5,7 @@ import "../App.css";
 
 export default function about() {
   return (
-    <div className="App">
+    <div id="about" className="App">
       <div className="main-div">
         <div className="navbar-top"></div>
         <div className="row">

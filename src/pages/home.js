@@ -7,7 +7,7 @@ import "../App.css";
 
 export default function home() {
   return (
-    <div className="App">
+    <div id="home" className="App">
       <div className="main-div">
         <div className="navbar-top">
           <Navbar />
@@ -17,11 +17,11 @@ export default function home() {
           <p className="name-cap">Brian Kleinberg</p>
           <p className="name-sm">I'm a Full Stack Developer</p>
           <div className="Btn container">
-            <button className="btn btn-color-2" onClick="window.open()">
+            <button style={{marginRight: "10px"}} className="btn btn-primary" onClick="window.open()">
               Download CV
             </button>
             <button
-              className="btn btn-color-1"
+              className="btn btn-secondary"
               onClick="location.href'./contact'"
             >
               Contact Info

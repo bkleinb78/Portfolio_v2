@@ -8,7 +8,7 @@ import "../App.css";
 
 export default function projects() {
   return (
-    <div className="App">
+    <div id="#projects" className="App">
       <div className="main-div">
         <div className="navbar-top">
           <Navbar />

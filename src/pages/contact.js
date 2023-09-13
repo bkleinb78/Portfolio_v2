@@ -13,7 +13,7 @@ function Mailto({ email, subject, body, ...props }) {
 
 export default function contact() {
   return (
-    <div className="App">
+    <div id="#contact" className="App">
       <div className="main-div">
         <div className="navbar-top"></div>
         <div className="row margintop-std">
@@ -47,7 +47,7 @@ export default function contact() {
                 <a
                   href={Resume}
                   target="_blank"
-                  style={{ fontSize: "2.5vw", color: "white" }}
+                  style={{ fontSize: "2.5vw", color: "white" }} rel="noreferrer"
                 >
                   Browse Resume
                 </a>
