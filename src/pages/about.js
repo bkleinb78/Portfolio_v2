@@ -1,52 +1,57 @@
 import React from "react";
 import Image1 from "../assets/image1.jpg";
 import Image2 from "../assets/image2.jpg";
-import "../App.css";
+import "./About.css";
+import { FiAward, FiUsers } from "react-icons/fi";
+import { MdCastForEducation } from "react-icons/md";
 
 export default function about() {
   return (
-    <div id="about" className="App">
-      <div className="main-div">
-        <div className="navbar-top"></div>
-        <div className="row">
-          <div className="col-md-6">
-            <p className="header-title">ABOUT ME</p>
-            <br />
-            <p className="content-aboutme">
-              I believe that people should do things in which they are good at
-              or in which their heart lays. That's why I chose freelance web
-              development as my career because I believe I'm good at this and I
-              am always honest and I am never afraid of doing hard work. I
-              majored on Computer Science Engineering and I have taken many
-              lessons on modern web designing from famous institutions.I majored
-              on Computer Science Engineering and I have taken many lessons on
-              modern web designing from famous institutions.
-            </p>
-          </div>
-          <div className="col-md-6">
-            <img src={Image2} className="about-image" />
-            <img src={Image1} className="about-image1" />
-            <div className="content-bio">
-              <div className="row">
-                <div className="col-md-3">
-                  <p className="number">44</p>
-                  <p className="number">31</p>
-                  <p className="number">175</p>
-                  <p className="number">1</p>
-                  <p className="number">1</p>
-                </div>
-                <div className="col-md-9">
-                  <p className="person-info">Years Old</p>
-                  <p className="person-info">Repositories</p>
-                  <p className="person-info">Contributions</p>
-                  <p className="person-info">Amazing Fiance</p>
-                  <p className="person-info">Year Developing</p>
-                </div>
-              </div>
-            </div>
+    <section className="container about_section" id="about">
+      <div className="text-center">
+        <h5>Get To Know</h5>
+        <h2>About Me</h2>
+      </div>
+
+      <div className="container about_container">
+        <div>
+          <div className="about_me">
+            <img className="about_me_image" src={Image1} alt="AboutPicture" />
           </div>
         </div>
+
+        <div className="about_content">
+          <div className="about_cards">
+            <article className="about_card">
+              <FiAward className="about_icon" />
+
+              <h5>Experience</h5>
+
+              <small>1+ years Web Development</small>
+            </article>
+
+            <article className="about_card">
+              <MdCastForEducation className="about_icon" />
+
+              <h5>Education</h5>
+
+              <small>BSC</small>
+            </article>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            tenetur commodi quas quisquam sint praesentium, veritatis natus
+            corporis aliquam ipsum, veniam doloribus at beatae quod, a deleniti
+            cumque eos eveniet!
+            {/* An ambitious, enthusiastic front-end React developer with expertise in HTML, CSS, and JavaScript, along with libraries like React JS, Next JS, Bootstrap, Tailwind, and Material UI. <br /> <br /> I'm well-versed in Firebase, Node JS, Express JS, and MongoDB for server-side development. <br /> <br /> I'm passionate about crafting captivating and responsive web applications that deliver seamless user experiences */}
+          </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Button
+          </a>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
