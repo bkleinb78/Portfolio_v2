@@ -10,14 +10,14 @@ function topNavbar() {
       <Navbar className="fixed-top" bg="dark" variant="dark">
         <Container>
           <Nav className="me-auto" style={{ display: "contents" }}>
-            <Nav.Link
+            <a
               href="#home"
               onclick="toggleMenu()"
               className="nav-item"
               style={{ textAlign: "left" }}
             >
               <p style={{ color: "white" }}>HOME</p>
-            </Nav.Link>
+            </a>
             <Nav.Link
               href="#about"
               onclick="toggleMenu()"
