@@ -1,4 +1,4 @@
-import "./App.css";
+/* import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./pages/about";
 import Home from "./pages/home";
@@ -21,3 +21,4 @@ const App = () => {
   };
 
 export default App;
+ */
