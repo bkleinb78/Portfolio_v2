@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #282c34;
 }
 
 code {
@@ -12,9 +13,10 @@ code {
     monospace;
 }
 :root {
-  --container-width-lg: 100%;
+  --container-width-lg: 80%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+  background: #282c34;
 
   overflow-x: hidden;
 }
