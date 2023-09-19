@@ -43,7 +43,7 @@ export default function contact() {
             <p className="name-sm-contact">https://linkedin.com/xxx</p>
             <p className="name-sm-contact">https://github.com/bkleinb78</p>
             <p className="name-sm-contact">
-              <Button variant="primary">
+              <Button variant="primary" style={{ width: 'fit-content' }}>
                 <a
                   href={Resume}
                   target="_blank"

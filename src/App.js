@@ -5,7 +5,7 @@ import About from "./pages/about";
 import Home from "./pages/home";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
-import NotFound from "./pages/notfound";
+// import NotFound from "./pages/notfound";
 import Skills from "./pages/skills";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
       <Projects />
       <Contact />
       <Skills/>
-      <NotFound />
+      {/* <NotFound /> */}
     </>
   );
 };

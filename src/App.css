@@ -125,10 +125,14 @@
 .project-layout {
   border: solid;
   border-color: #657d8f;
-  height: 58vh;
+  height: fit-content;
   border-radius: 28px;
-  padding: 16px;
+  padding: 30px;
   margin: 3.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-container {
