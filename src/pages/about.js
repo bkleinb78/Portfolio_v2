@@ -1,8 +1,8 @@
 import React from "react";
 import Image1 from "../assets/image1.jpg";
-import Image2 from "../assets/image2.jpg";
+// import Image2 from "../assets/image2.jpg";
 import "./About.css";
-import { FiAward, FiUsers } from "react-icons/fi";
+import { FiAward } from "react-icons/fi";
 import { MdCastForEducation } from "react-icons/md";
 
 export default function about() {

@@ -14,7 +14,7 @@ function topNavbar() {
               href="#home"
               onclick="toggleMenu()"
               className="nav-item"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", textDecoration: 'none' }}
             >
               <p style={{ color: "white" }}>HOME</p>
             </a>
