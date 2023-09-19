@@ -2,6 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import "../App.css";
 import Resume from "../assets/1.pdf";
+import ContactForm from "./contactForm";
 
 function Mailto({ email, subject, body, ...props }) {
   return (
@@ -54,6 +55,10 @@ export default function contact() {
               </Button>
             </p>
           </div>
+        </div>
+
+        <div className="row margintop-std">
+          <ContactForm/>
         </div>
       </div>
     </div>

@@ -22,11 +22,11 @@ export default function home() {
           </div>
           <div>
           <div className="btn-container">
-            <button style={{marginRight: "10px"}} className="btn btn-color-2" onClick="window.open()">
+            <button className="btn btn-color-2 btn-nowrap" onClick="window.open()">
               Download CV
             </button>
             <button
-              className="btn btn-color-1"
+              className="btn btn-color-1 btn-nowrap"
               onClick="location.href'./contact'"
             >
               Contact Info
