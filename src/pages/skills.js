@@ -4,6 +4,7 @@ import {
   SiBootstrap,
   // SiCheckmarx,
   SiCss3,
+  SiDjango,
   SiExpress,
   // SiFirebase,
   SiHtml5,
@@ -11,6 +12,9 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiPhp,
+  SiPostman,
+  SiPython,
+  SiReact,
   // SiReact,
   // SiReactrouter,
   // SiRedux,
@@ -22,7 +26,7 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <section id="skills" className="mt-4">
+    <section id="projects" className="mt-4">
       <div className="text-center">
         <h2 className="text-white">Skills</h2>
       </div>
@@ -37,7 +41,7 @@ const Skills = () => {
 
               <div>
                 <h4>HTML5</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"></small>
               </div>
             </article>
 
@@ -46,16 +50,16 @@ const Skills = () => {
 
               <div>
                 <h4>CSS3</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"></small>
               </div>
             </article>
 
             <article className="skills_details">
-              <SiTailwindcss className="skills_details_icons" />
+              <SiReact className="skills_details_icons" />
 
               <div>
-                <h4>SASS</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>React JS</h4>
+                <small className="text-light"></small>
               </div>
             </article>
 
@@ -64,27 +68,36 @@ const Skills = () => {
 
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light"></small>
               </div>
             </article>
-
-            <article className="skills_details">
-              <SiTypescript className="skills_details_icons" />
-
-              <div>
-                <h4>TypeScript</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-
             <article className="skills_details">
               <SiBootstrap className="skills_details_icons" />
 
               <div>
-                <h4>Material UI</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>Bootstrap</h4>
+                <small className="text-light"></small>
               </div>
             </article>
+            <article className="skills_details">
+              <SiTailwindcss className="skills_details_icons" />
+
+              <div>
+                <h4>Tailwind</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
+            {/* <article className="skills_details">
+              <SiTypescript className="skills_details_icons" />
+
+              <div>
+                <h4>TypeScript</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
+             */}
           </div>
         </div>
 
@@ -97,8 +110,8 @@ const Skills = () => {
               <SiPhp className="skills_details_icons" />
 
               <div>
-                <h4>PostgreSQL</h4>
-                <small className="text-light">Basic</small>
+                <h4>MySQL</h4>
+                <small className="text-light"></small>
               </div>
             </article>
 
@@ -107,16 +120,7 @@ const Skills = () => {
 
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="skills_details">
-              <SiExpress className="skills_details_icons" />
-
-              <div>
-                <h4>Express JS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
 
@@ -125,7 +129,28 @@ const Skills = () => {
 
               <div>
                 <h4>Git</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="skills_details">
+              <SiDjango className="skills_details_icons" />
+              <div>
+                <h4>Django</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="skills_details">
+              <SiPython className="skills_details_icons" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="skills_details">
+              <SiPostman className="skills_details_icons" />
+              <div>
+                <h4>Postman</h4>
+                <small className="text-light"></small>
               </div>
             </article>
           </div>

@@ -6,7 +6,10 @@ function ContactForm() {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <div className="contact-form-wrapper d-flex justify-content-center">
+    <div
+      id="contact"
+      className="contact-form-wrapper d-flex justify-content-center"
+    >
       <form onSubmit={handleSubmit} className="contact-form">
         <h5 className="text-white title name-sm-contact">Contact us</h5>
         <p className="text-white description name-sm-contact-description">

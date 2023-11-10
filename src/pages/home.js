@@ -14,9 +14,11 @@ export default function home() {
           <Navbar />
         </div>
         <div>
-          <p className="name-sm">Hello I'm</p>
-          <p className="name-cap">Brian Kleinberg</p>
-          <p className="name-sm">I'm a Full Stack Developer</p>
+          <div className="name-section">
+            <p className="name-sm">Hello I'm</p>
+            <p className="name-cap">Brian Kleinberg</p>
+            <p className="name-sm">I'm a Full Stack Developer</p>
+          </div>
           <div>
             <img src={Image} className="about-image-home" />
           </div>
