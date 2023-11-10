@@ -1,4 +1,3 @@
-
 import React from "react";
 // import { FcSettings } from "react-icons/fc";
 import {
@@ -22,17 +21,11 @@ import {
 import "./Skills.css";
 
 const Skills = () => {
-
-
   return (
-    <section id="skills">
-
-<div className="text-center">
-<h5>What are my</h5>
-      <h2>Skills</h2>
+    <section id="skills" className="mt-4">
+      <div className="text-center">
+        <h2 className="text-white">Skills</h2>
       </div>
-      
-
       <div className="container skills_container">
         <div className="skills_frontend">
           {/* ==================================== Frontend ================================ */}
@@ -44,7 +37,7 @@ const Skills = () => {
 
               <div>
                 <h4>HTML5</h4>
-                <small className='text-light'>Experienced</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -53,16 +46,16 @@ const Skills = () => {
 
               <div>
                 <h4>CSS3</h4>
-                <small className='text-light'>Experienced</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
-            
+
             <article className="skills_details">
               <SiTailwindcss className="skills_details_icons" />
 
               <div>
                 <h4>SASS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
 
@@ -71,7 +64,7 @@ const Skills = () => {
 
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Basic</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
 
@@ -80,7 +73,7 @@ const Skills = () => {
 
               <div>
                 <h4>TypeScript</h4>
-                <small className='text-light'>Basic</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
 
@@ -89,10 +82,9 @@ const Skills = () => {
 
               <div>
                 <h4>Material UI</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
-
           </div>
         </div>
 
@@ -101,22 +93,21 @@ const Skills = () => {
         <div className="skills_backend">
           <h3>Backend Development</h3>
           <div className="skills_content">
-            
-          <article className="skills_details">
+            <article className="skills_details">
               <SiPhp className="skills_details_icons" />
 
               <div>
                 <h4>PostgreSQL</h4>
-                <small className='text-light'>Basic</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
-            
+
             <article className="skills_details">
               <SiNodedotjs className="skills_details_icons" />
 
               <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
 
@@ -125,7 +116,7 @@ const Skills = () => {
 
               <div>
                 <h4>Express JS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
 
@@ -134,14 +125,9 @@ const Skills = () => {
 
               <div>
                 <h4>Git</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
-
-
-
-
-
           </div>
         </div>
       </div>

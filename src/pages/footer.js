@@ -1,8 +1,9 @@
-import './footer.css'
+import "./footer.css";
 
 export default function Footer() {
-    return <footer>
-        <nav>
+  return (
+    <footer>
+      {/* <nav>
             <div className="nav-links-container">
                 <ul className="nav-links">
                     <li><a href="#about">About</a></li>
@@ -11,7 +12,8 @@ export default function Footer() {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-        <p>Copyright &#169; 2023 Brian Kleinberg. All Rights Reserved.</p>
+        </nav> */}
+      <p>Copyright &#169; 2023 Brian Kleinberg. All Rights Reserved.</p>
     </footer>
+  );
 }

@@ -1,5 +1,7 @@
 .about_section {
   background: #282c34;
+  /* background: white; */
+  color: white;
   width: 100%;
 }
 
@@ -24,7 +26,7 @@
 }
 
 .about_me_image {
-  height: 100%;
+  height: 85%;
   border-radius: 2rem;
   overflow: hidden;
   background: #282c34;
@@ -42,11 +44,13 @@
   border-radius: 1rem;
   padding: 1rem;
   text-align: center;
+  color: white;
 }
 
 .about_card:hover {
-  background: transparent;
+  background: white;
   cursor: default;
+  color: var(--bs-body-color);
 }
 
 .about_icon {
