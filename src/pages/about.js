@@ -1,5 +1,5 @@
 import React from "react";
-import Image1 from "../assets/image1.jpg";
+import Image1 from "../assets/image.jpg";
 // import Image2 from "../assets/image2.jpg";
 import "./About.css";
 import { FiAward } from "react-icons/fi";
@@ -37,10 +37,11 @@ export default function about() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            tenetur commodi quas quisquam sint praesentium, veritatis natus
-            corporis aliquam ipsum, veniam doloribus at beatae quod, a deleniti
-            cumque eos eveniet!
+            I'm a Software Developer currently living in chicago. Over the next
+            few yrs, I plan to grow my skills and education in bringing digital
+            products to life. I am looking to make an impact in the tech
+            industry by transitioning from retail sales. In my spare time i love
+            to pay video games and surf the web on new technology coming out.
             {/* An ambitious, enthusiastic front-end React developer with expertise in HTML, CSS, and JavaScript, along with libraries like React JS, Next JS, Bootstrap, Tailwind, and Material UI. <br /> <br /> I'm well-versed in Firebase, Node JS, Express JS, and MongoDB for server-side development. <br /> <br /> I'm passionate about crafting captivating and responsive web applications that deliver seamless user experiences */}
           </p>
         </div>
