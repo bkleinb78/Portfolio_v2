@@ -69,8 +69,8 @@
   margin-left: -5vw;
 }
 .about-image-home {
-  width: 15vw;
-  height: 15vw;
+  width: 20vw;
+  height: 20vw;
   margin: 1vw;
 }
 .content-bio {
@@ -206,5 +206,5 @@
   width: 6rem !important;
 }
 .name-section {
-  margin-top: 100px;
+  margin-top: 115px;
 }
