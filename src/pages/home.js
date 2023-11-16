@@ -7,6 +7,16 @@ import "../App.css";
 import "./home.css";
 
 export default function home() {
+  const onDownloadCV = () => {
+    const url = "./Brianresume_dev.pdf";
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div id="home" className="App">
       <div className="main-div">
@@ -25,18 +35,17 @@ export default function home() {
           <div>
             <div className="btn-container">
               <button
-                href="../assets/Brianresume_dev.pdf"
                 className="btn btn-color-2 btn-nowrap mr-2"
-                onClick="../assets/Brianresume_dev.pdf"
+                onClick={onDownloadCV}
               >
                 Download CV
               </button>
-              <button
+              {/* <button
                 className="btn btn-color-1 btn-nowrap ml-2"
                 onClick="location.href'./contact'"
               >
                 Contact Info
-              </button>
+              </button> */}
             </div>
             <a href="https://linkedin.com/in/brian-kleinberg">
               <img
