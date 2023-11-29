@@ -15,7 +15,7 @@ function Mailto({ email, subject, body, ...props }) {
 export default function contact() {
   return (
     <div id="#contact" className="App">
-      <div className="mb-4">
+      <div className="mt-4">
         <div className="navbar-top"></div>
         <div className="row margintop-std">
           <ContactForm />

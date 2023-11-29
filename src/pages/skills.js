@@ -27,7 +27,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <section id="projects" className="mt-4">
-      <div className="text-center">
+      <div className="text-center my-5">
         <h2 className="text-white">Skills</h2>
       </div>
       <div className="container skills_container">

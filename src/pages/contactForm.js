@@ -13,8 +13,7 @@ function ContactForm() {
       <form onSubmit={handleSubmit} className="contact-form">
         <h5 className="text-white title name-sm-contact">Contact Me</h5>
         <p className="text-white description name-sm-contact-description">
-          Feel free to contact me if you need any assistance, any help or
-          another question.
+          Feel free to reach out and send a message let's get in touch!
         </p>
         <div>
           <input

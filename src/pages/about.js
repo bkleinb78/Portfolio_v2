@@ -37,11 +37,10 @@ export default function about() {
           </div>
 
           <p>
-            I'm a Software Developer currently living in chicago. Over the next
-            few years, I plan to grow my skills and education in bringing
-            digital products to life. I am looking to make an impact in the tech
-            industry by transitioning from retail sales. In my spare time i love
-            to play video games and surf the web on new technology coming out.
+            I currently live in chicago. I am looking to make an impact I am
+            looking in the tech industry by transitioning from retail sales. In
+            my spare time i love to play video games and surf the web on new
+            technology coming out.
             {/* An ambitious, enthusiastic front-end React developer with expertise in HTML, CSS, and JavaScript, along with libraries like React JS, Next JS, Bootstrap, Tailwind, and Material UI. <br /> <br /> I'm well-versed in Firebase, Node JS, Express JS, and MongoDB for server-side development. <br /> <br /> I'm passionate about crafting captivating and responsive web applications that deliver seamless user experiences */}
           </p>
         </div>
