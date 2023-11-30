@@ -140,11 +140,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 10rem;
 }
 
 .btn-container {
   margin-top: 20px;
   display: flex;
+  margin: 1em;
 }
 
 .icon-layout-project img {

@@ -1,11 +1,13 @@
 
 footer {
-    margin: 2 1rem;
+    margin: 4 1rem;
 }
 
 footer p {
     text-align: center;
     color: white;
+    margin:  3rem;
+    padding: 2rem;
 }
 
 .nav-links-container {

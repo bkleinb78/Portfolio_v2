@@ -28,7 +28,7 @@ const Categories = [
       "https://media.contra.com/image/upload/f_auto%2Cc_fill%2Cdpr_auto%2Cw_auto%2Cfl_lossy%2Ce_loop%2Cfl_awebp%2Cfl_animated/exiwfu9ihs2zzs8dqmv0",
     ],
     Sourceurl: "https://github.com/bkleinb78/Youtube-clone",
-    Liveurl: "https://cnn.com",
+    Liveurl: "https://google.com",
   },
   {
     title: "Wedding Tracker",
@@ -78,12 +78,19 @@ export default function projects() {
         <div className="navbar-top">
           <Navbar />
         </div>
+        <div className="text center my-6">
+          <h1 className="text white">Projects</h1>
+        </div>
         <div className="row inline-project">
           {Categories.map((category) => (
             <div className="col-md-3 project-layout">
               <img
                 src={category.image}
-                style={{ width: "100%", height: "36vh", borderRadius: "15px" }}
+                style={{
+                  width: "100%",
+                  height: "36vh",
+                  borderRadius: "15px",
+                }}
               />
               <p className="project-title">{category.title}</p>
               <div className="icon-layout-project">

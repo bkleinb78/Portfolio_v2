@@ -9,8 +9,8 @@ export default function about() {
   return (
     <section className="container about_section mt-2 pt-2" id="about">
       <div className="text-center">
-        <h5>Get To Know</h5>
-        <h2>About Me</h2>
+        <h4>Get To Know</h4>
+        <h1>About Me</h1>
       </div>
 
       <div className="container about_container">
@@ -24,13 +24,13 @@ export default function about() {
           <div className="about_cards">
             <article className="about_card">
               <FiAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>1+ years Web Development</small>
+              <h4>Experience</h4>
+              <medium>1+ years Web Development</medium>
             </article>
             <article className="about_card">
               <MdCastForEducation className="about_icon" />
 
-              <h5>Education</h5>
+              <h4>Education</h4>
 
               <small>BSC</small>
             </article>
