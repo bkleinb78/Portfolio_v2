@@ -31,7 +31,7 @@
 }
 .main-div {
   width: 80%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: block;
   color: white;
   background-color: #282c34;
@@ -74,6 +74,15 @@
   height: 20vw;
   margin: 1vw;
 }
+
+@media screen and (max-width: 1024px) {
+  .about-image-home {
+    width: 30vw;
+    height: 30vw;
+    margin: 1vw;
+  }
+}
+
 .content-bio {
   text-align: left;
   margin-top: 5vh;
@@ -98,6 +107,15 @@
   font-size: 2.5vw;
   font-family: Kodchasan-Bold;
 }
+@media screen and (max-width: 1024px) {
+  .name-sm {
+    font-size: 4vw;
+    font-family: Kodchasan-Bold;
+  }
+}
+
+
+
 /* .name-sm-contact {
   font-size: 2.5vw;
   font-family: Kodchasan-Bold;
@@ -114,10 +132,28 @@
   height: 3vw;
   margin: 1.5vw;
 }
+
+@media screen and (max-width: 1024px) {
+  .image-icon {
+    width: 10vw;
+    height: 10vw;
+    margin: 2vw;
+  }
+}
+
+
 .project-icon {
   width: 2vw;
   height: 2vw;
   margin: 0.2vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .project-icon {
+    width: 15vw;
+    height: 15vw;
+    margin: 0.2vw;
+  }
 }
 
 .project-layout:hover {
@@ -142,7 +178,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
 }
 
 .btn-container {
@@ -210,5 +246,9 @@
   width: 6rem !important;
 }
 .name-section {
-  margin-top: 115px;
+  margin-top: 140px;
+}
+
+.font-Kodchasan {
+  font-family: "Kodchasan-Bold";
 }

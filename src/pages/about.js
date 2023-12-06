@@ -8,7 +8,7 @@ import { MdCastForEducation } from "react-icons/md";
 export default function about() {
   return (
     <section className="container about_section mt-2 pt-2" id="about">
-      <div className="text-center">
+      <div className="text-center mt-2 mb-2">
         <h4>Get To Know</h4>
         <h1>About Me</h1>
       </div>

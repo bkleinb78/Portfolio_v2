@@ -6,6 +6,7 @@ import Image3 from "../assets/image3.jpg";
 import Image4 from "../assets/image4.jpg";
 import Image5 from "../assets/image5.jpg";
 import "../App.css";
+import { useMediaQuery } from 'react-responsive'
 
 const Categories = [
   {
@@ -71,18 +72,19 @@ const Categories = [
   // },
 ];
 
-export default function projects() {
+export default function Projects() {
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
   return (
     <div id="#projects" className="App">
       <div className="main-div -mb-20">
-        <div className="navbar-top">
+        {/* <div className="navbar-top">
           <Navbar />
-        </div>
-        <div className="text center my-6">
+        </div> */}
+        <div className="text center mt-4">
           <h1 className="text white">Projects</h1>
         </div>
         <div className="row inline-project">
-          {Categories.map((category) => (
+          {Categories.map((category, index) => (
             <div className="col-md-3 project-layout">
               <img
                 src={category.image}
@@ -90,6 +92,7 @@ export default function projects() {
                   width: "100%",
                   height: "36vh",
                   borderRadius: "15px",
+                  objectFit: index == 2? "cover": "fill",
                 }}
               />
               <p className="project-title">{category.title}</p>
@@ -101,12 +104,12 @@ export default function projects() {
               <div className="btn-container">
                 <a href={category.Sourceurl}>
                   <Button variant="secondary" className="category-btn">
-                    <a style={{ fontSize: "1vw" }}>Source</a>
+                    <a style={{ fontSize: isTabletOrMobile? 20: "1vw" }}>Source</a>
                   </Button>
                 </a>
                 <a href={category.Liveurl}>
                   <Button variant="secondary" className="category-btn">
-                    <a style={{ fontSize: "1vw" }}>View</a>
+                    <a style={{ fontSize: isTabletOrMobile? 20: "1vw" }}>View</a>
                   </Button>
                 </a>
               </div>

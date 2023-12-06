@@ -7,6 +7,7 @@ import Contact from "./pages/contact";
 // import NotFound from "./pages/notfound";
 import Skills from "./pages/skills";
 import Footer from "./pages/footer";
+import ContactEmail from "./pages/ContactEmail";
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
+      <ContactEmail />
+
       <Footer />
       {/* <NotFound /> */}
     </>

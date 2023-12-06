@@ -1,18 +1,20 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { useMediaQuery } from 'react-responsive'
 
 import "../App.css";
 
-function topNavbar() {
+function TopNavbar() {
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
   return (
     <>
       <Navbar className="fixed-top" bg="dark" variant="dark">
         <Container>
-          <Nav className="me-auto" style={{ display: "contents" }}>
+          <Nav className="me-auto" style={{ display: isTabletOrMobile? "contents" : "flex" }}>
             <a
               href="#home"
-              onclick="toggleMenu()"
+              // onClick="toggleMenu()"
               className="nav-item"
               style={{ textAlign: "left", textDecoration: 'none' }}
             >
@@ -20,7 +22,7 @@ function topNavbar() {
             </a>
             <Nav.Link
               href="#about"
-              onclick="toggleMenu()"
+              // onClick="toggleMenu()"
               className="nav-item"
               style={{ textAlign: "left" }}
             >
@@ -28,7 +30,7 @@ function topNavbar() {
             </Nav.Link>
             <Nav.Link
               href="#projects"
-              onclick="toggleMenu()"
+              // onClick="toggleMenu()"
               className="nav-item"
               style={{ textAlign: "left" }}
             >
@@ -36,7 +38,7 @@ function topNavbar() {
             </Nav.Link>
             <Nav.Link
               href="#contact"
-              onclick="toggleMenu()"
+              // onClick=toggleMenu()"
               className="nav-item"
               style={{ textAlign: "right" }}
             >
@@ -49,4 +51,4 @@ function topNavbar() {
   );
 }
 
-export default topNavbar;
+export default TopNavbar;
