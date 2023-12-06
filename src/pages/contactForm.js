@@ -11,7 +11,8 @@ function ContactForm() {
       className="contact-form-wrapper d-flex justify-content-center"
     >
       <form onSubmit={handleSubmit} className="contact-form">
-        <h5 className="text-white title name-sm-contact">Contact Me</h5>
+        <h5 className="text-white">Get in Touch</h5>
+        <h2> Contact Me</h2>
         <p className="text-white description name-sm-contact-description">
           Feel free to reach out and send a message let's get in touch!
         </p>

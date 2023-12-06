@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import About from "./pages/about";
 import Home from "./pages/home";
 import Projects from "./pages/projects";

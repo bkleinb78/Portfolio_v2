@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../components/navbar";
-
 import Image from "../assets/main.jpg";
 
 import "../App.css";
